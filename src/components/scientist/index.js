@@ -10,7 +10,7 @@ import styles from "./scientist.module.css"
 //       </div>
 
 // CONSTANTS
-
+// Learning git 
 function show() {
 	var popup = document.getElementById("myPopup")
 	popup.classList.toggle("show")
