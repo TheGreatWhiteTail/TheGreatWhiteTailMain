@@ -1,0 +1,38 @@
+[
+	{
+		"image": "person1.png",
+		"designation": "Founder",
+		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio aut facilis exercitationem nemo velit eum quae voluptatum minus voluptatibus iure ratione sint placeat ea molestiae temporibus, soluta dolorem ullam! Illum.",
+		"name": "Fantastic Richad"
+	},
+	{
+		"image": "person2.png",
+		"designation": "Founder",
+		"description": "This is a small description for me to try how it would look :)",
+		"name": "Abella Ads"
+	},
+	{
+		"image": "person3.png",
+		"designation": "Founder",
+		"description": "This is a small description for me to try how it would look :)",
+		"name": "Rocky Bottom"
+	},
+	{
+		"image": "person4.png",
+		"designation": "Artist",
+		"description": "This is a small description for me to try how it would look :)",
+		"name": "Man Bat"
+	},
+	{
+		"image": "person5.png",
+		"designation": "Marketing",
+		"description": "This is a small description for me to try how it would look :)",
+		"name": "Fantastic Richard"
+	},
+	{
+		"image": "person6.png",
+		"designation": "Developer",
+		"description": "This is a small description for me to try how it would look :)",
+		"name": "Carol Coder"
+	}
+]

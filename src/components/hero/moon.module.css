@@ -1,0 +1,41 @@
+.moon {
+	position: absolute;
+	left: 47%;
+	width: 7vw;
+	height: 7vw;
+	border-radius: 100%;
+	background-color: white;
+	transform-origin: center;
+	transform: translate(-50%, 0);
+	box-shadow: 0 0 20px 7px white;
+	animation: moon 400ms infinite, moonAppear 2s 1;
+	z-index: 0;
+}
+@keyframes moon {
+	from {
+		box-shadow: 0 0 30px 10px white;
+	}
+	25% {
+		box-shadow: -2px -2px 35px 10px white;
+	}
+	50% {
+		box-shadow: 0 -2px 30px 10px white;
+	}
+	75% {
+		box-shadow: 0px 0px 35px 10px white;
+	}
+	to {
+		box-shadow: -2px -2px 30px 10px white;
+	}
+}
+@keyframes moonAppear {
+	from {
+		transform: translate(0, 200%);
+	}
+	50% {
+		transform: translate(0, 200%);
+	}
+	to {
+		transform: translate(0, 0);
+	}
+}

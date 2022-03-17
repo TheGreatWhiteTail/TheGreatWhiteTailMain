@@ -1,0 +1,110 @@
+.gold {
+	position: absolute;
+	bottom: 0;
+}
+.gold1 {
+	width: 14vw;
+	height: auto;
+	animation: gold1 20s infinite linear, bounce 5s infinite linear;
+}
+.gold2 {
+	bottom: 2%;
+	width: 5vw;
+	height: auto;
+	animation: gold2 20s infinite linear, bounce 5s infinite linear;
+}
+.gold3 {
+	width: 7vw;
+	height: auto;
+	animation: gold3 20s infinite linear, bounce 5s infinite linear;
+}
+.gold4 {
+	width: 8vw;
+	height: auto;
+	animation: gold4 20s infinite linear, bounce 5s infinite linear;
+}
+.gold5 {
+	width: 5vw;
+	height: auto;
+	animation: gold5 20s infinite linear, bounce 5s infinite linear;
+}
+.gold6 {
+	width: 4vw;
+	height: auto;
+	left: 90%;
+	bottom: 2%;
+	animation: bounce 5s infinite linear;
+}
+/* BOUNCE */
+@keyframes bounce {
+	from {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(25%);
+	}
+	to {
+		transform: translateY(0);
+	}
+}
+@keyframes gold1 {
+	from {
+		bottom: 0;
+		left: 0;
+	}
+	50% {
+		bottom: 15%;
+		left: 5%;
+	}
+	to {
+		bottom: 0;
+		left: 0;
+	}
+}
+
+@keyframes gold3 {
+	from {
+		bottom: 5%;
+		left: 50%;
+	}
+	25% {
+		bottom: 6%;
+		left: 55%;
+	}
+	50% {
+		bottom: 4%;
+		left: 45%;
+	}
+	to {
+		bottom: 5%;
+		left: 50%;
+	}
+}
+@keyframes gold4 {
+	from {
+		left: 70%;
+		bottom: 15%;
+	}
+	50% {
+		left: 65%;
+		bottom: 13%;
+	}
+	to {
+		left: 70%;
+		bottom: 15%;
+	}
+}
+@keyframes gold5 {
+	from {
+		left: 85%;
+		bottom: 15%;
+	}
+	50% {
+		left: 80%;
+		bottom: 13%;
+	}
+	to {
+		left: 85%;
+		bottom: 15%;
+	}
+}

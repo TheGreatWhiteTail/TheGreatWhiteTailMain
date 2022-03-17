@@ -1,0 +1,26 @@
+.lastPage {
+	background-color: white;
+	height: 300px;
+}
+.point {
+	width: 7.5%;
+	height: 4%;
+	background-color: #2b2a29;
+	margin: 0 auto;
+	position: relative;
+	left: 1%;
+	top: 10px;
+	animation: questionPoint 2s infinite linear;
+}
+
+@keyframes questionPoint {
+	from {
+		top: 10px;
+	}
+	50% {
+		top: 30px;
+	}
+	to {
+		top: 10px;
+	}
+}

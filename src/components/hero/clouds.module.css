@@ -1,0 +1,45 @@
+.clouds {
+	position: absolute;
+	width: 70vw;
+	height: auto;
+
+	z-index: 0;
+}
+.cloud1 {
+	top: -2vw;
+	width: 50vw;
+	animation: cloud1 3s ease-in-out 1;
+}
+.cloud2 {
+	position: absolute;
+	width: 60vw;
+	top: 0;
+	right: 0;
+	animation: cloud2 3.5s ease-in-out 1;
+}
+.cloud3 {
+	top: 0;
+	left: 0;
+}
+@keyframes cloud1 {
+	from {
+		transform: translateX(-100%);
+	}
+	50% {
+		transform: translateX(-100%);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+@keyframes cloud2 {
+	from {
+		transform: translateX(100%);
+	}
+	50% {
+		transform: translateX(100%);
+	}
+	to {
+		transform: translateX(0);
+	}
+}

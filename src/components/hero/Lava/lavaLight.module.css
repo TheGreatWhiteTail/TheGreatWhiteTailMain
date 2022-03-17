@@ -1,0 +1,10 @@
+.lavaLight {
+	position: absolute;
+	top: 0;
+	width: 8vw;
+	height: 0;
+	background-color: transparent;
+	box-shadow: 5px 0 5vw 2vw red;
+	top: 20vw;
+	left: 45.5%;
+}

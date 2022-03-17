@@ -1,0 +1,26 @@
+.container {
+	position: relative;
+
+	width: 65vw;
+	height: fit-content !important;
+	margin: 0 auto;
+	transition: transform 500ms;
+}
+.container > div {
+	overflow: visible;
+}
+.first {
+	transform: translateX(-25%);
+}
+.last {
+	transform: translateX(25%);
+}
+
+@media (max-width: 610px) {
+	.first {
+		transform: none;
+	}
+	.last {
+		transform: none;
+	}
+}

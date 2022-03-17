@@ -1,0 +1,78 @@
+.volcanoLava {
+	position: absolute;
+	width: 100vw;
+	height: auto;
+	top: -0.5vw;
+	left: 50%;
+	transform: translate(-50%, 0);
+	z-index: 1;
+	animation: volcanoAnim 2s 1 linear;
+}
+@keyframes volcanoAnim {
+	from {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+#prueba {
+	font-size: small;
+}
+.trash {
+	position: absolute;
+	width: 5vw;
+}
+.trash {
+	animation: trash 1s infinite ease-in-out;
+}
+.trash1 {
+	animation-name: trash1;
+	top: 45%;
+	right: 30%;
+}
+.trash2 {
+	width: 7vw;
+	top: 42%;
+	right: 34%;
+	animation-delay: 200ms;
+}
+.trash3 {
+	top: 40%;
+	right: 45%;
+	animation-delay: 300ms;
+}
+.trash4 {
+	width: 7vw;
+	top: 39%;
+	right: 50%;
+}
+@keyframes trash1 {
+	from {
+		transform: scaleY(100%) skew(0);
+	}
+	50% {
+		transform: scaleY(90%) skew(-3deg);
+	}
+	to {
+		transform: scaleY(100%) skew(0);
+	}
+}
+@keyframes trash {
+	from {
+		transform: scale(100%);
+	}
+	50% {
+		transform: scaleY(90%);
+	}
+	to {
+		transform: scaleY(100%);
+	}
+}
+.gold {
+	position: absolute;
+	bottom: 20%;
+}
